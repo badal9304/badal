@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+
+}
+.backgroung-image{
+    background-color: blue;
+    position: static;
+    opacity: 50px;
+    
+}
