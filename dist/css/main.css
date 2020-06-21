@@ -321,7 +321,7 @@ main {
       .menu-btn.close .btn-line:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px); } }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 411px) {
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
@@ -338,7 +338,7 @@ main {
   .menu-btn {
     position: absolute;
     z-index: 3;
-    right: -320px;
+    right: -350px;
     top: 35px;
     cursor: pointer;
     transition: all 0.5s ease-out; }
