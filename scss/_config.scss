@@ -35,14 +35,14 @@ $background-opacity: 0.8;
 
 // Responsive media query Mixins
 @mixin mediaSm {
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 410px){
         @content;
 
         //Menu Button
     .menu-btn{
     position: absolute;
     z-index: 3;
-    right: -450px;
+    right: -320px;
     top: 35px;
     cursor: pointer;
     @include easeOut;

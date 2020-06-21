@@ -87,6 +87,25 @@
         grid-template-columns: 1fr;
     }
 
+    .boxes{
+        div{
+            font-size: 1rem;
+            border: 1.5px #fff solid;
+            padding: 1rem 1rem;
+            margin-bottom: 1rem;
+        }
+        
+    }
+    .lg-heading{
+        text-align: center;
+        
+    }
+    .sm-heading{
+        font-size: smaller;
+        
+    }
+    
+
     main#home h1{
         margin-top: 10vh;
     }
