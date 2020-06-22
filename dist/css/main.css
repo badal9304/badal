@@ -242,13 +242,13 @@ main {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (min-width: 769px) and (max-width: 1170px) {
+@media screen and (max-width: 1170px) and (min-width: 769px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   .menu-btn {
     position: absolute;
     z-index: 3;
-    right: -910px;
+    right: auto;
     top: 35px;
     cursor: pointer;
     transition: all 0.5s ease-out; }
@@ -268,6 +268,27 @@ main {
         transform: rotate(-45deg) translate(7px, -6px); } }
 
 @media screen and (max-width: 768px) {
+  .menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: auto;
+    top: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
+    .menu-btn .btn-line {
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px 0;
+      background: #fff;
+      transition: all 0.5s ease-out; }
+    .menu-btn.close {
+      transform: rotate(180deg); }
+      .menu-btn.close .btn-line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px); }
+      .menu-btn.close .btn-line:nth-child(2) {
+        opacity: 0; }
+      .menu-btn.close .btn-line:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px); }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   main {
@@ -298,12 +319,14 @@ main {
       height: 130px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr; } }
+
+@media only screen and (max-width: 411px) {
   .menu-btn {
     position: absolute;
     z-index: 3;
-    right: -650px;
-    top: 35px;
+    right: auto;
+    top: 10px;
     cursor: pointer;
     transition: all 0.5s ease-out; }
     .menu-btn .btn-line {
@@ -319,9 +342,7 @@ main {
       .menu-btn.close .btn-line:nth-child(2) {
         opacity: 0; }
       .menu-btn.close .btn-line:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px); } }
-
-@media screen and (max-width: 411px) {
+        transform: rotate(-45deg) translate(7px, -6px); }
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
@@ -334,25 +355,4 @@ main {
   .sm-heading {
     font-size: smaller; }
   main#home h1 {
-    margin-top: 10vh; }
-  .menu-btn {
-    position: absolute;
-    z-index: 3;
-    right: -350px;
-    top: 35px;
-    cursor: pointer;
-    transition: all 0.5s ease-out; }
-    .menu-btn .btn-line {
-      width: 28px;
-      height: 3px;
-      margin: 0 0 5px 0;
-      background: #fff;
-      transition: all 0.5s ease-out; }
-    .menu-btn.close {
-      transform: rotate(180deg); }
-      .menu-btn.close .btn-line:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px); }
-      .menu-btn.close .btn-line:nth-child(2) {
-        opacity: 0; }
-      .menu-btn.close .btn-line:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px); } }
+    margin-top: 10vh; } }

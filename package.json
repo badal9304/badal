@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive portfolio website",
   "main": "index.js",
-  
+  "homepage": "https://github.com/badal9304/badalPortfolio.git",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-    
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Badal Ranjan",
   "license": "MIT",
