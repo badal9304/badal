@@ -201,4 +201,32 @@ main{
     height: 60px;
 }
 
+// Resume button.
+.resume_btn{
+    
+    margin-top: -30.6%;
+    margin-left: 83%;
+    display: block;
+    border-radius: 50px;
+    background-color: #424447;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.resume_btn:hover {
+    background-color: $secondary-color;
+    a{
+        color: black;
+    }
+    
+  }
+
 @import 'mobile';
