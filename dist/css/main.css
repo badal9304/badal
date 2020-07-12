@@ -238,13 +238,33 @@ main {
   color: #e6e6e6;
   height: 60px; }
 
+.resume_btn {
+  margin-top: -30.6%;
+  margin-left: 83%;
+  display: block;
+  border-radius: 50px;
+  background-color: #424447;
+  border: none;
+  color: black;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px; }
+  .resume_btn a {
+    color: white;
+    text-decoration: none; }
+
+.resume_btn:hover {
+  background-color: #eece1a; }
+  .resume_btn:hover a {
+    color: black; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (max-width: 1170px) and (min-width: 769px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: 1fr; }
   .menu-btn {
     position: absolute;
     z-index: 3;
@@ -290,7 +310,7 @@ main {
       .menu-btn.close .btn-line:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px); }
   .projects {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: 1fr; }
   main {
     align-items: center;
     text-align: center; }
