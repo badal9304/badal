@@ -339,7 +339,21 @@ main {
       height: 130px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .resume_btn {
+    margin-top: -186.6%;
+    margin-left: 70%;
+    display: block;
+    border-radius: 50px;
+    background-color: #424447;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 20px; }
+    .resume_btn a {
+      color: white;
+      text-decoration: none; } }
 
 @media only screen and (max-width: 411px) {
   .menu-btn {
