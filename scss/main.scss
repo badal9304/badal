@@ -102,14 +102,26 @@ main{
     }
     
     .job-1{
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
         grid-area: job1;
     }
     
     .job-2{
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
         grid-area: job2;
     }
     
     .job-3{
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
         grid-area: job3;
     }
     
