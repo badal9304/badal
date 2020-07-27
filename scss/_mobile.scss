@@ -118,6 +118,13 @@
         grid-template-columns: 1fr;
         
     }
+    .job1-li, .job2-li, .job3-li{
+        li{ 
+            text-align: start;
+            direction: ltr;
+        }
+        
+    }
     .resume_btn{
     
         margin-top: -186.6%;

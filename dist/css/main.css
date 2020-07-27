@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.97;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -349,6 +349,9 @@ main {
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
+  .job1-li li, .job2-li li, .job3-li li {
+    text-align: start;
+    direction: ltr; }
   .resume_btn {
     margin-top: -186.6%;
     margin-left: 70%;
